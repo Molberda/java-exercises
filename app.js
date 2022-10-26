@@ -1,5 +1,5 @@
-function not0(elem) {
-return elem !== 0
+function remainder(num1, num2) {
+return num1 % num2
 }
 
-console.log(not0('string'));
+console.log(remainder(7, 8));
