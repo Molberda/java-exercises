@@ -1,10 +1,9 @@
-let arr = [1, 2, 6 ,4 ,5]
-let sum = 0
-function arrAddition(arr) {
-    for (let i = 0; i < arr.length; ++i){
-        sum = sum + arr[i]
+function factorial(num) {
+    let sum = 0
+    for (let i = 1; i < num + 1; ++i){
+         sum = sum + i
     }
-    return sum
+return sum
 }
 
-console.log(arrAddition(arr));
+console.log(factorial(600));
