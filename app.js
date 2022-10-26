@@ -1,5 +1,5 @@
-function opposite(boo) {
-return !boo
+function not0(elem) {
+return elem !== 0
 }
 
-console.log(opposite(true));
+console.log(not0('string'));
