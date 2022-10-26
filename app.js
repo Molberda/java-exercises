@@ -1,5 +1,5 @@
-function isTheNumberOdd(num1) {
-return num1 % 2 !== 0
+function isTheNumberEven(num) {
+return num % 2 === 0 ? 1 : -1
 }
 
-console.log(isTheNumberOdd());
+console.log(isTheNumberEven(2));
