@@ -1,5 +1,7 @@
-function filterOutFalsy(str1, str2) {
-    return !str1 === true ? str1 : str2
+let arr = []
+
+function arrLength(arr) {
+    return arr.length
 }
 
-console.log(filterOutFalsy(0, 5));
+console.log(arrLength(arr));
