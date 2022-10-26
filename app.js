@@ -1,9 +1,14 @@
-function factorial(num) {
-    let sum = 0
-    for (let i = 1; i < num + 1; ++i){
-         sum = sum + i
+function calcTime(seconds) {
+    let timerMinutes = Math.floor(seconds / 60)
+    let timerSeconds = seconds % 60
+    if (timerMinutes.toString().length === 1){
+        timerMinutes = '0' + timerMinutes
     }
-return sum
+
+    if (timerSeconds.toString().length === 1){
+        timerSeconds = '0' + timerSeconds
+    }
+    return timerMinutes + ':' + timerSeconds
 }
 
-console.log(factorial(600));
+console.log(calcTime());
