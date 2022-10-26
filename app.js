@@ -1,5 +1,5 @@
-function greaterThan100(num1, num2) {
-return num1 + num2 > 100
+function opposite(boo) {
+return !boo
 }
 
-console.log(greaterThan100(100, 50));
+console.log(opposite(true));
