@@ -1,5 +1,5 @@
-function append (string){
-return string + 'Frontend'
+function greaterThan100(num1, num2) {
+return num1 + num2 > 100
 }
 
-console.log(append('Banana'))
+console.log(greaterThan100(100, 50));
