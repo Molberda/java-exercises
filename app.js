@@ -1,5 +1,5 @@
-function remainder(num1, num2) {
-return num1 % num2
+function isTheNumberOdd(num1) {
+return num1 % 2 !== 0
 }
 
-console.log(remainder(7, 8));
+console.log(isTheNumberOdd());
