@@ -1,5 +1,5 @@
-function isTheNumberEven(num) {
-return num % 2 === 0 ? 1 : -1
+function loggedAndSubscribed(logged, subStatus) {
+ return logged === 'logged_in' && subStatus === 'subscribed' 
 }
 
-console.log(isTheNumberEven(2));
+console.log(loggedAndSubscribed('logged_in', 'subscribed'));
