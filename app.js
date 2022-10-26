@@ -1,5 +1,5 @@
-function triangleArea (length, height){
-return (length  * height) / 2
+function append (string){
+return string + 'Frontend'
 }
 
-console.log(triangleArea(10, 10))
+console.log(append('Banana'))
