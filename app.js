@@ -1,5 +1,5 @@
-function loggedAndSubscribed(logged, subStatus) {
- return logged === 'logged_in' || subStatus === 'subscribed' 
+function filterOutFalsy(str1, str2) {
+    return !str1 === true ? str1 : str2
 }
 
-console.log(loggedAndSubscribed('logged_in', 'subscribed'));
+console.log(filterOutFalsy(0, 5));
