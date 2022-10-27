@@ -1,14 +1,9 @@
-function calcTime(seconds) {
-    let timerMinutes = Math.floor(seconds / 60)
-    let timerSeconds = seconds % 60
-    if (timerMinutes.toString().length === 1){
-        timerMinutes = '0' + timerMinutes
-    }
-
-    if (timerSeconds.toString().length === 1){
-        timerSeconds = '0' + timerSeconds
-    }
-    return timerMinutes + ':' + timerSeconds
+function reverse(str) {
+    let reversedStr = ''
+    for (let i = str.length-1; i >= 0; --i) {
+        reversedStr = reversedStr + str [i]
+  }
+  return reversedStr
 }
 
-console.log(calcTime());
+console.log(reverse('this is cool'));
