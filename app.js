@@ -1,16 +1,15 @@
-function filterFalsey(arr) {
-   return arr.filter(elem => !!elem === true)
-}
-console.log(filterFalsey(['', 0, null, [], undefined, '0']));
+// function boolean(arr){
+//     return arr.map(elem => !!elem)
+// }
 
-function filterFalsey(arr){
-    let truthArr = []
+// console.log(boolean([500, 0, 'david','', [], 12, null]))
+
+function boolean(arr){
+    let booleanArr = []
     for (let i = 0; i < arr.length; ++i){
-        if (!!arr[i] === true){
-            truthArr.push(arr[i])
-        }
+        booleanArr.push(!!arr[i])
     }
-    return truthArr
+    return booleanArr
 }
 
-console.log(filterFalsey(['', 0, null, undefined, '0', 12, []]));
+console.log(boolean([500, 0, 'david','', [], 12, null]))
