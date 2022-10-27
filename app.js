@@ -1,9 +1,5 @@
 function zero(arr) {
-    let newArr = []
-    for (let i = 0; i < arr.length; i++){
-        newArr [i] = 0
-    }
-    return newArr
+    return new Array (arr.length).fill(0)
 } 
 
 console.log(zero([1, 2, 3, 4, 5, 67,]));
