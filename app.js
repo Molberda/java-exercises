@@ -1,9 +1,5 @@
 function reverse(str) {
-    let reversedStr = ''
-    for (let i = str.length-1; i >= 0; --i) {
-        reversedStr = reversedStr + str [i]
-  }
-  return reversedStr
+    return str.split('').reverse().join('')
 }
 
-console.log(reverse('this is cool'));
+console.log(reverse('amazing'));
