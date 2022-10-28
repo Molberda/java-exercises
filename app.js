@@ -1,15 +1,4 @@
-// function boolean(arr){
-//     return arr.map(elem => !!elem)
-// }
-
-// console.log(boolean([500, 0, 'david','', [], 12, null]))
-
-function boolean(arr){
-    let booleanArr = []
-    for (let i = 0; i < arr.length; ++i){
-        booleanArr.push(!!arr[i])
-    }
-    return booleanArr
+function showRating(arr){
+    return arr.sort((a, b) => a - b)
 }
-
-console.log(boolean([500, 0, 'david','', [], 12, null]))
+console.log(showRating([20, 50, 40, 70, 10]))
